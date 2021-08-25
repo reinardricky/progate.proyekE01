@@ -54,3 +54,19 @@ a {
 
 /* pertanyaan */
 .pertanyaan {}
+
+.footer-logo img {
+  height: 70px;
+  float: left;
+  padding: 20px 20px;
+}
+.footer-list a {
+  font-family: Poppins;
+  font-size: 14px;
+  color: #212529;
+  background-color: #FF0000;
+  text-align: center;
+}
+.footer-list span {
+  float: right;
+}
