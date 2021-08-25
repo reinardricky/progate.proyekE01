@@ -17,5 +17,40 @@ a {
   text-decoration: none;
 }
 
+/*header*/
+.header{
+  background-color: #9baec2;
+  z-index:10px;
+  height:90px;
+}
+.header-logo{
+  padding: 20px 20px;
+  float:left;
+}
+
+.header-logo img{
+  width: 150px;
+}
+
+.header-list{
+  float:right;
+  padding: 0 20px;
+  font-size: 15px;
+}
+
+.header-list a {
+  line-height: 90px;
+  padding: 0 25px;
+  color: white;
+  float:left;
+  margin-right:1px;
+  background-color: #9baec2;
+  transition:all 0.5s;
+  display:inline-block
+}
+.header-list a:hover{
+  background-color: #6182a5;
+}
+
 /* pertanyaan */
 .pertanyaan {}
