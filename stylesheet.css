@@ -24,6 +24,8 @@ a {
   height: 90px;
   width: 100%;
   position: fixed;
+  position: fixed;
+  width: 100%;
 }
 
 .header-logo {
@@ -339,20 +341,95 @@ a {
   align-items: center;
 }
 
+.footer {
+  background-color: #507196;
+  width: 100%;
+
+}
+
 .footer-logo img {
-  height: 70px;
+  height: 100px;
   float: left;
   padding: 20px 20px;
+}
+
+.footer-list {
+  float: right;
+  padding-top: 10px;
+  text-align: right;
+
 }
 
 .footer-list a {
   font-family: Poppins;
   font-size: 14px;
-  color: #212529;
-  background-color: #FF0000;
+  color: #ffffff;
+}
+
+/* .footer-mediasosial span {
+  float: right;
+<<<<<<< HEAD
+}
+=======
+} */
+
+.contents {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 195px 0 47px 0;
+  background-image: url(https://th.bing.com/th/id/R.9cccb35e60d5dd027633d35f3102e1fc?rik=WCDtQ9Tvdkyt6w&riu=http%3a%2f%2fwww.100hdwallpapers.com%2fwallpapers%2f2048x1403%2fbeautiful_sunset_in_kiel-other.jpg&ehk=ZxgdlCqHedk7FVB8eaP9aiLE7TZ4UUUzfPiGybEG7rE%3d&risl=&pid=ImgRaw&r=0.png);
+  background-size: cover;
+  color: white;
   text-align: center;
 }
 
-.footer-list span {
-  float: right;
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin-bottom: 100px;
+}
+
+.top-wrapper li {
+  opacity: 1.0;
+  float: left;
+  color: white;
+  padding: 5px 25px;
+  margin: 0 87px;
+  list-style: none;
+  cursor: pointer;
+}
+
+li:hover {
+  opacity: 0.5;
+  color: darkgray;
+}
+
+.main {
+  float: left;
+  width: 100%;
+}
+
+.main h2 {
+  text-align: center;
+  color: firebrick;
+  padding-top: 37px;
+  letter-spacing: 2.5px;
+}
+
+.main-contents {
+  float: left;
+  width: 25%;
+  /* padding: 10px;
+  margin: 15px 20px; */
+}
+
+.image {
+  height: 345px;
+  width: 246px;
+  flex-wrap: wrap;
 }
