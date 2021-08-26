@@ -17,13 +17,15 @@ a {
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*header*/
 .header {
   background-color: #9baec2;
   z-index: 10;
   height: 90px;
-  width: 100%;
-  position: fixed;
   position: fixed;
   width: 100%;
 }
@@ -366,12 +368,7 @@ a {
   color: #ffffff;
 }
 
-/* .footer-mediasosial span {
-  float: right;
-<<<<<<< HEAD
-}
-=======
-} */
+
 
 .contents {
   width: 1170px;
@@ -380,11 +377,12 @@ a {
 }
 
 .top-wrapper {
-  padding: 195px 0 47px 0;
+  padding: 195px 0 47px;
   background-image: url(https://th.bing.com/th/id/R.9cccb35e60d5dd027633d35f3102e1fc?rik=WCDtQ9Tvdkyt6w&riu=http%3a%2f%2fwww.100hdwallpapers.com%2fwallpapers%2f2048x1403%2fbeautiful_sunset_in_kiel-other.jpg&ehk=ZxgdlCqHedk7FVB8eaP9aiLE7TZ4UUUzfPiGybEG7rE%3d&risl=&pid=ImgRaw&r=0.png);
   background-size: cover;
   color: white;
   text-align: center;
+  width: 100%;
 }
 
 .top-wrapper h1 {
@@ -412,24 +410,35 @@ li:hover {
 .main {
   float: left;
   width: 100%;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
 }
 
-.main h2 {
-  text-align: center;
-  color: firebrick;
-  padding-top: 37px;
-  letter-spacing: 2.5px;
-}
+
 
 .main-contents {
   float: left;
   width: 25%;
-  /* padding: 10px;
-  margin: 15px 20px; */
+  text-align: center;
+}
+
+.main-contents:hover .image {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, .3);
 }
 
 .image {
   height: 345px;
-  width: 246px;
+  width: 90%;
   flex-wrap: wrap;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+
+.main-contents p:last-child {
+  color: #142b4f;
+  font-size: 20px;
+  font-weight: 400;
 }
