@@ -20,9 +20,10 @@ a {
 /*header*/
 .header {
   background-color: #9baec2;
-  z-index: 10px;
+  z-index: 10;
   height: 90px;
   position:fixed;
+  width:100%;
 }
 
 .header-logo {
@@ -337,24 +338,33 @@ a {
   justify-content: center;
   align-items: center;
 }
+.footer{
+  background-color:#507196 ;
+  width:100%;
 
+}
 .footer-logo img {
-  height: 70px;
+  height: 100px;
   float: left;
   padding: 20px 20px;
 }
 
-.footer-list a {
-  font-family: Poppins;
-  font-size: 14px;
-  color: #212529;
-  background-color: #FF0000;
-  text-align: center;
+.footer-list{
+  float:right;
+  padding-top: 10px;
+  text-align: right;
+  
 }
 
-.footer-list span {
+.footer-list a{
+  font-family: Poppins;
+  font-size: 14px;
+  color: #ffffff;
+} 
+
+/* .footer-mediasosial span {
   float: right;
-}
+} */
 
 .contents {
     width: 1170px;
@@ -374,7 +384,7 @@ a {
   opacity: 0.8;
   font-size: 50px;
   letter-spacing: 3px;
-  margin-bottom: 212px;
+  margin-bottom:100px;
 }
   
 .top-wrapper li {
@@ -394,6 +404,7 @@ li:hover {
 
 .main {
   float: left;
+  width:100%;
 }
 
 .main h2 {
@@ -405,8 +416,9 @@ li:hover {
 
 .main-contents {
   float: left;
-  padding: 10px;
-  margin: 15px 20px;
+  width:25%;
+  /* padding: 10px;
+  margin: 15px 20px; */
 }
 
 .image {
